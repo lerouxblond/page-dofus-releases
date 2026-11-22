@@ -31,9 +31,17 @@ page-dofus est une application Windows pensée pour les joueurs de Dofus 3 qui s
 |---|---|---|
 | 0.1 | Base : stockage, référentiel du jeu, images, réglages | Disponible |
 | 0.2 | Personnages, équipes, guildes | Disponible |
-| 0.3 | Métiers, Dofus, builds, historique | En cours |
+| 0.3 | Métiers, Dofus, historique et objectifs (0.3.0) · builds (0.3.1) | En cours |
 | 0.4 | Overlay Streamlabs et événements | À venir |
 | 0.5 | Installeur et mises à jour automatiques | À venir |
+
+<p align="center">
+  <img src="captures/fiche-metiers.png" width="900" alt="Fiche d'un personnage, onglet Métiers">
+</p>
+<p align="center">
+  <img src="captures/fiche-dofus.png" width="440" alt="Onglet Dofus">
+  <img src="captures/fiche-historique.png" width="440" alt="Onglet Historique">
+</p>
 
 ## Installer
 
