@@ -32,7 +32,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 | 0.1 | Base : stockage, référentiel du jeu, images, réglages | Disponible |
 | 0.2 | Personnages, équipes, guildes | Disponible |
 | 0.3 | Métiers, Dofus, historique, objectifs, builds, personnages | Disponible |
-| 0.4 | Overlay Streamlabs et événements | À venir |
+| 0.4 | Overlay Streamlabs et événements | Disponible |
 | 0.5 | Installeur et mises à jour automatiques | À venir |
 
 <p align="center">
@@ -45,6 +45,18 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 <p align="center">
   <img src="captures/builds.png" width="440" alt="Éditeur de build">
   <img src="captures/personnages.png" width="440" alt="Écran Personnages">
+</p>
+
+## L'overlay
+
+L'app sert l'overlay sur ton PC (`http://127.0.0.1:4777`). Dans l'écran Overlay, copie l'adresse d'une scène et colle-la dans une source navigateur de Streamlabs ou d'OBS : la fiche se met à jour toute seule, et les événements (niveau, Dofus, métier) passent en plein écran.
+
+<p align="center">
+  <img src="captures/overlay-equipe.png" width="900" alt="Bandeau d'équipe de l'overlay">
+</p>
+<p align="center">
+  <img src="captures/overlay.png" width="440" alt="Écran Overlay de l'app">
+  <img src="captures/evenement-metier.png" width="440" alt="Événement plein écran : métier niveau supérieur">
 </p>
 
 ## Installer
