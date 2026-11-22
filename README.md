@@ -30,8 +30,8 @@ page-dofus est une application Windows pensée pour les joueurs de Dofus 3 qui s
 | Version | Contenu | État |
 |---|---|---|
 | 0.1 | Base : stockage, référentiel du jeu, images, réglages | Disponible |
-| 0.2 | Personnages, équipes, guildes | En cours |
-| 0.3 | Métiers, Dofus, builds, historique | À venir |
+| 0.2 | Personnages, équipes, guildes | Disponible |
+| 0.3 | Métiers, Dofus, builds, historique | En cours |
 | 0.4 | Overlay Streamlabs et événements | À venir |
 | 0.5 | Installeur et mises à jour automatiques | À venir |
 
