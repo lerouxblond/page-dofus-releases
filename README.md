@@ -22,7 +22,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 
 - **Carnet de personnages** : niveau, métiers, Dofus obtenus ou en cours, pour un personnage seul ou une équipe multicompte.
 - **Overlay Streamlabs** : une fiche compacte qui tourne entre plusieurs pages (personnage, Dofus, métiers, équipement), et des animations plein écran quand tu montes de niveau ou obtiens un Dofus.
-- **Builds** : une bibliothèque de builds partagée par tous tes personnages, avec un build actif affiché sur l'overlay.
+- **Builds** : une bibliothèque de builds partagée par tous tes personnages ; chacun porte le sien (onglet Stuff de sa fiche), et l'overlay montre celui du personnage à l'écran.
 - **Tout reste sur ton PC** : pas de compte et pas de serveur. Tes données sont de simples fichiers dans `%APPDATA%\page-dofus`.
 
 ## Où en est le projet
@@ -33,7 +33,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 | 0.2 | Personnages, équipes, guildes | Disponible |
 | 0.3 | Métiers, Dofus, historique, objectifs, builds, personnages | Disponible |
 | 0.4 | Overlay Streamlabs et événements | Disponible |
-| 0.5 | Installeur et mises à jour automatiques | À venir |
+| 0.5 | Installeur et mises à jour automatiques | Disponible |
 
 <p align="center">
   <img src="captures/fiche-metiers.png" width="900" alt="Fiche d'un personnage, onglet Métiers">
@@ -44,6 +44,9 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 </p>
 <p align="center">
   <img src="captures/builds.png" width="440" alt="Éditeur de build">
+  <img src="captures/fiche-stuff.png" width="440" alt="Onglet Stuff : le build porté par le personnage">
+</p>
+<p align="center">
   <img src="captures/personnages.png" width="440" alt="Écran Personnages">
 </p>
 
@@ -61,11 +64,15 @@ L'app sert l'overlay sur ton PC (`http://127.0.0.1:4777`). Dans l'écran Overlay
 
 ## Installer
 
-1. Télécharge le fichier `page-dofus-x.y.z-windows.zip` de la [dernière version](../../releases/latest).
-2. Dézippe-le où tu veux et lance `page-dofus.exe`.
-3. Au premier lancement, Windows peut afficher « Windows a protégé votre ordinateur », car l'application n'est pas encore signée. Clique sur **Informations complémentaires**, puis **Exécuter quand même**.
+1. Télécharge `page-dofus-setup-x.y.z.exe` dans la [dernière version](../../releases/latest) et lance-le.
+2. L'installation se fait pour ton compte Windows, sans droits administrateur, avec un raccourci dans le menu Démarrer et sur le bureau.
+3. Windows peut afficher « Windows a protégé votre ordinateur », car l'application n'est pas encore signée. Clique sur **Informations complémentaires**, puis **Exécuter quand même**.
 
-Il faut Windows 10 ou 11 avec Microsoft Edge WebView2, déjà présent sur les systèmes à jour.
+Les mises à jour s'installent ensuite depuis l'app : elle vérifie au lancement si une nouvelle version est sortie, affiche ses nouveautés, puis la télécharge, vérifie son empreinte SHA-256 et se met à jour toute seule, après une sauvegarde de tes données.
+
+Tu préfères une version portable ? Prends le zip `page-dofus-x.y.z-windows.zip`, dézippe-le où tu veux et lance `page-dofus.exe` (les mises à jour se téléchargent alors à la main).
+
+Il faut Windows 10 ou 11 avec Microsoft Edge WebView2, déjà présent sur les systèmes à jour ; l'installeur te prévient s'il manque.
 
 ### Les images du jeu
 
@@ -73,7 +80,7 @@ Les icônes de Dofus, de classes et de métiers appartiennent à Ankama et ne so
 
 ### Désinstaller
 
-Supprime le dossier de l'application, et `%APPDATA%\page-dofus` si tu veux aussi effacer tes données.
+Paramètres de Windows > Applications > Mon petit carnet d'Astrub > Désinstaller. Tes données (`%APPDATA%\page-dofus`) sont gardées, sauf si tu demandes à les effacer. Version portable : supprime simplement son dossier.
 
 <p align="center">
   <img src="captures/accueil.png" width="440" alt="Accueil du premier lancement">
