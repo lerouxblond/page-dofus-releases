@@ -22,7 +22,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 
 - **Carnet de personnages** : niveau, métiers, Dofus obtenus ou en cours, guilde et alliance, pour un personnage seul ou une équipe multicompte, avec une page résumé par personnage.
 - **Overlay Streamlabs** : une fiche compacte qui tourne entre plusieurs pages (personnage, Dofus, métiers, équipement), et des animations plein écran, avec leur son, quand tu montes de niveau ou obtiens un Dofus.
-- **Builds** : une bibliothèque de builds partagée par tous tes personnages ; chacun porte le sien (onglet Stuff de sa fiche), et l'overlay montre celui du personnage à l'écran.
+- **Builds** : un builder complet (caractéristiques, parchemins, stats calculées, inventaire façon jeu) et une bibliothèque partagée par tous tes personnages ; chacun porte le sien, l'overlay montre celui du personnage à l'écran, et un code de partage permet d'échanger un build.
 - **Tout reste sur ton PC** : pas de compte et pas de serveur. Tes données sont de simples fichiers dans `%APPDATA%\page-dofus`.
 
 ## Où en est le projet
@@ -35,7 +35,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 | 0.4 | Overlay Streamlabs et événements | Disponible |
 | 0.5 | Installeur et mises à jour automatiques | Disponible |
 | 0.6 | Suivi d'équipe, page résumé, guilde et alliance, sons des événements | Disponible |
-| 0.7 | Builder complet : caractéristiques, stats et totaux | Prévu |
+| 0.7 | Builder complet : caractéristiques, stats, inventaire façon jeu, code de partage | Disponible |
 | 1.0 | Version finale | Prévu |
 
 <p align="center">
@@ -60,6 +60,9 @@ L'app sert l'overlay sur ton PC (`http://127.0.0.1:4777`). Dans l'écran Overlay
 
 <p align="center">
   <img src="captures/overlay-equipe.png" width="900" alt="Bandeau d'équipe de l'overlay">
+</p>
+<p align="center">
+  <img src="captures/overlay-stuff.png" width="900" alt="Page Stuff de l'overlay : l'inventaire comme dans le jeu">
 </p>
 <p align="center">
   <img src="captures/overlay.png" width="440" alt="Écran Overlay de l'app">
