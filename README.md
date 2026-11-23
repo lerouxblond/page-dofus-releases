@@ -20,8 +20,8 @@
 
 Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs de Dofus 3 qui streament.
 
-- **Carnet de personnages** : niveau, métiers, Dofus obtenus ou en cours, pour un personnage seul ou une équipe multicompte.
-- **Overlay Streamlabs** : une fiche compacte qui tourne entre plusieurs pages (personnage, Dofus, métiers, équipement), et des animations plein écran quand tu montes de niveau ou obtiens un Dofus.
+- **Carnet de personnages** : niveau, métiers, Dofus obtenus ou en cours, guilde et alliance, pour un personnage seul ou une équipe multicompte, avec une page résumé par personnage.
+- **Overlay Streamlabs** : une fiche compacte qui tourne entre plusieurs pages (personnage, Dofus, métiers, équipement), et des animations plein écran, avec leur son, quand tu montes de niveau ou obtiens un Dofus.
 - **Builds** : une bibliothèque de builds partagée par tous tes personnages ; chacun porte le sien (onglet Stuff de sa fiche), et l'overlay montre celui du personnage à l'écran.
 - **Tout reste sur ton PC** : pas de compte et pas de serveur. Tes données sont de simples fichiers dans `%APPDATA%\page-dofus`.
 
@@ -34,9 +34,12 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 | 0.3 | Métiers, Dofus, historique, objectifs, builds, personnages | Disponible |
 | 0.4 | Overlay Streamlabs et événements | Disponible |
 | 0.5 | Installeur et mises à jour automatiques | Disponible |
+| 0.6 | Suivi d'équipe, page résumé, guilde et alliance, sons des événements | Disponible |
+| 0.7 | Builder complet : caractéristiques, stats et totaux | Prévu |
+| 1.0 | Version finale | Prévu |
 
 <p align="center">
-  <img src="captures/fiche-metiers.png" width="900" alt="Fiche d'un personnage, onglet Métiers">
+  <img src="captures/fiche-resume.png" width="900" alt="Fiche d'un personnage, onglet Résumé">
 </p>
 <p align="center">
   <img src="captures/fiche-dofus.png" width="440" alt="Onglet Dofus">
@@ -47,6 +50,7 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
   <img src="captures/fiche-stuff.png" width="440" alt="Onglet Stuff : le build porté par le personnage">
 </p>
 <p align="center">
+  <img src="captures/fiche-metiers.png" width="440" alt="Onglet Métiers">
   <img src="captures/personnages.png" width="440" alt="Écran Personnages">
 </p>
 
