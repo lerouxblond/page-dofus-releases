@@ -36,7 +36,8 @@ Mon petit carnet d'Astrub est une application Windows pensée pour les joueurs d
 | 0.5 | Installeur et mises à jour automatiques | Disponible |
 | 0.6 | Suivi d'équipe, page résumé, guilde et alliance, sons des événements | Disponible |
 | 0.7 | Builder complet : caractéristiques, stats, inventaire façon jeu, code de partage | Disponible |
-| 1.0 | Version finale | Prévu |
+| 0.8 | Bonus de panoplie, infobulles d'items, forgemagie, résumé et overlay Stuff repensés | Disponible |
+| 1.0 | Grosse passe de performance, interface plus vivante, nouvelles fonctions | Prévu |
 
 <p align="center">
   <img src="captures/fiche-resume.png" width="900" alt="Fiche d'un personnage, onglet Résumé">
