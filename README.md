@@ -1,7 +1,7 @@
 # Mon petit carnet d'Astrub
 
 Le carnet d'aventure Dofus de tes personnages, avec son overlay pour Streamlabs et OBS.
-Niveaux, métiers, Dofus, quête du Dofus Ocre, builds, équipes : tout se suit dans une app Windows, et ton stream l'affiche en direct.
+Niveaux, métiers, Dofus, quête du Dofus Ocre, avis de recherche, builds, équipes : tout se suit dans une app Windows, et ton stream l'affiche en direct.
 
 **[Télécharger la dernière version](../../releases/latest)** (Windows 10 et 11, gratuit, sans compte)
 
@@ -27,6 +27,15 @@ Niveaux, métiers, Dofus, quête du Dofus Ocre, builds, équipes : tout se suit 
 - La première capture met l'Ocre « en cours » ; le valider marque tout ce qui reste.
 
 ![Onglet Dofus Ocre](captures/dofus-ocre.png)
+
+### Le carnet des avis de recherche
+
+- Les 82 avis du jeu, du niveau 20 au niveau 200 : la cible, son image, ses zones et l'indice de l'avis.
+- Ce que chaque avis rapporte (avitons, alitons, kamas de glace) et ce qu'il demande (niveau, rang d'alignement, quête préalable).
+- Les avis rendus par chaque perso, ou par toute l'équipe d'un clic, avec les avitons gagnés et ceux qui restent.
+- Tes notes de stratégie sur chaque avis, et le prochain avis à ta portée.
+
+![Carnet des avis de recherche](captures/avis-de-recherche.png)
 
 ### Builds
 
@@ -57,16 +66,17 @@ Les raccourcis marchent même quand Dofus a le focus. Tu les changes dans Régla
 
 | Raccourci | Action |
 |---|---|
-| Ctrl+Alt+↑ / ↓ | +1 / −1 sur le membre sélectionné : son niveau, un métier épinglé, ou un Dofus en cours (deux appuis pour le valider) |
+| Ctrl+Alt+↑ / ↓ | +1 / −1 sur ce que vise le membre sélectionné : son niveau, un métier, ou un Dofus (un appui le commence, deux le valident) |
 | Ctrl+Alt+→ / ← | Membre suivant ou précédent de l'équipe, sans changer le perso mis en avant sur le stream |
-| Ctrl+Alt+Fin | Passer du niveau aux métiers épinglés, puis aux Dofus en cours |
+| Ctrl+Alt+Fin | Changer de catégorie : niveau, métiers, Dofus |
+| Ctrl+Alt+Page ↑ / Page ↓ | Métier ou Dofus précédent ou suivant (épinglés et en cours d'abord) |
 | Ctrl+Alt+O | Masquer ou réafficher l'overlay |
 
-Une petite fenêtre te montre qui est sélectionné et ce que tu modifies. Elle n'apparaît que sur ton écran, pas sur le stream.
+Une petite fenêtre te montre qui est sélectionné et ce que tu modifies. Elle n'apparaît que sur ton écran, pas sur le stream, et tu choisis où (un coin de l'écran de ton choix). Dans l'app, « Viser au clavier » sur un métier ou un Dofus le choisit à la souris.
 
 ![Petite fenêtre des raccourcis](captures/fenetre-raccourcis.png)
 
-Dans l'app, Ctrl+K trouve tout : un écran, un perso, une action, « Capturé : » suivi du nom d'un archimonstre. Ctrl+Z annule n'importe quelle modification.
+Dans l'app, Ctrl+K trouve tout : un écran, un perso, une action, « Capturé : » suivi du nom d'un archimonstre, « Avis rendu : » suivi d'une cible. Ctrl+Z annule n'importe quelle modification.
 
 ![Palette Ctrl+K](captures/palette.png)
 
